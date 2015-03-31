@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2015-03-19 07:00:58.569 PDT" projectPath="/Users/seba/monkeytalk/workspace/HelloWordProject" agent="iOS v2.0.1_241 - 2014-01-29 08:29:47 MST" runner="MonkeyTalk IDE v2.0.11-SNAPSHOT_32 - 2014-12-13 12:39:06 EST">
+    <script  comp="Script" id="HelloWordTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script HelloWordTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1426773646533" stop="1426773658542" duration="12.009" result="ok">
+        <cmd  comp="View" id="msjWelcome" action="Verify" mods="%thinktime=500 %timeout=2000" raw="View msjWelcome Verify %thinktime=500 %timeout=2000" idx="2" start="1426773646535" stop="1426773647090" duration="0.555" result="ok">
+        </cmd>
+        <cmd  comp="View" id="msjName" action="Verify" mods="%thinktime=500 %timeout=2000" raw="View msjName Verify %thinktime=500 %timeout=2000" idx="3" start="1426773647091" stop="1426773647610" duration="0.519" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="userField" action="Verify" mods="%thinktime=500 %timeout=2000" raw="Input userField Verify %thinktime=500 %timeout=2000" idx="4" start="1426773647610" stop="1426773648120" duration="0.51" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="userField" action="enterText" args="seba" mods="%thinktime=500 %timeout=2000" raw="Input userField enterText seba %thinktime=500 %timeout=2000" idx="5" start="1426773648120" stop="1426773648666" duration="0.546" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="Next" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button Next Tap %thinktime=500 %timeout=2000" idx="6" start="1426773648667" stop="1426773649347" duration="0.68" result="ok">
+        </cmd>
+        <cmd  comp="View" id="welcomeTxt" action="Verify" args="&quot;Welcome, seba!&quot;" mods="%thinktime=500 %timeout=2000" raw="View welcomeTxt Verify &quot;Welcome, seba!&quot; %thinktime=500 %timeout=2000" idx="7" start="1426773649347" stop="1426773649973" duration="0.626" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="Return" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button Return Tap %thinktime=500 %timeout=2000" idx="8" start="1426773649973" stop="1426773650518" duration="0.545" result="ok">
+        </cmd>
+        <cmd  comp="View" id="msjWelcome" action="Verify" mods="%thinktime=500 %timeout=2000" raw="View msjWelcome Verify %thinktime=500 %timeout=2000" idx="9" start="1426773650518" stop="1426773658542" duration="8.024" result="ok">
+        </cmd>
+    </script>
+</detail>
