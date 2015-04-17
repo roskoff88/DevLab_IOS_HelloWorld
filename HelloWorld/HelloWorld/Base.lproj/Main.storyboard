@@ -27,17 +27,11 @@ CQ
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="78N-Mi-Qyn" userLabel="textField">
-                                <rect key="frame" x="151" y="351" width="136" height="30"/>
-                                <accessibility key="accessibilityConfiguration" label="userField"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jZ-6i-Ykj">
                                 <rect key="frame" x="159" y="441" width="64" height="38"/>
                                 <accessibility key="accessibilityConfiguration" label="nextButton"/>
                                 <state key="normal" title="Next">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="RtE-37-iX2" kind="modal" identifier="nextSegundoView" modalTransitionStyle="flipHorizontal" id="mNR-2F-7w9"/>
@@ -50,6 +44,12 @@ CQ
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="78N-Mi-Qyn" userLabel="textField">
+                                <rect key="frame" x="151" y="351" width="136" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="userField"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" id="w5l-sA-G0T"/>
@@ -84,7 +84,7 @@ CQ
                                 <rect key="frame" x="146" y="368" width="46" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="returnButton"/>
                                 <state key="normal" title="Return">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>

@@ -15,13 +15,11 @@
 		96429C9E1ABA20B600BCF3CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96429C9C1ABA20B600BCF3CD /* LaunchScreen.xib */; };
 		96429CAA1ABA20B700BCF3CD /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429CA91ABA20B700BCF3CD /* HelloWorldTests.m */; };
 		96429CB81ABA365300BCF3CD /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429CB71ABA365200BCF3CD /* SegundoViewController.m */; };
-		969C96791ABB9A4D0023B17F /* apple-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 969C96781ABB9A4D0023B17F /* apple-logo.jpg */; };
 		969C968D1ABB9E0A0023B17F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429C951ABA20B600BCF3CD /* ViewController.m */; };
 		969C968E1ABB9E0A0023B17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429C921ABA20B600BCF3CD /* AppDelegate.m */; };
 		969C968F1ABB9E0A0023B17F /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429CB71ABA365200BCF3CD /* SegundoViewController.m */; };
 		969C96901ABB9E0A0023B17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96429C8F1ABA20B600BCF3CD /* main.m */; };
 		969C96931ABB9E0A0023B17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96429C971ABA20B600BCF3CD /* Main.storyboard */; };
-		969C96941ABB9E0A0023B17F /* apple-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 969C96781ABB9A4D0023B17F /* apple-logo.jpg */; };
 		969C96951ABB9E0A0023B17F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96429C9C1ABA20B600BCF3CD /* LaunchScreen.xib */; };
 		969C96961ABB9E0A0023B17F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96429C9A1ABA20B600BCF3CD /* Images.xcassets */; };
 		969C969F1ABB9FCA0023B17F /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A033C31ABAB6780074D543 /* libstdc++.6.0.9.dylib */; };
@@ -32,6 +30,8 @@
 		969C96A51ABBA1B50023B17F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A033CB1ABAB6D40074D543 /* UIKit.framework */; };
 		969C96A61ABBA1C10023B17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A033CD1ABAB6EF0074D543 /* Foundation.framework */; };
 		969C96A81ABBA1CD0023B17F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969C96A71ABBA1CD0023B17F /* CoreGraphics.framework */; };
+		96FFB46F1AE196E7008340AC /* apple-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96FFB46E1AE196E7008340AC /* apple-logo.jpg */; };
+		96FFB4701AE196E7008340AC /* apple-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96FFB46E1AE196E7008340AC /* apple-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +60,7 @@
 		96429CA91ABA20B700BCF3CD /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
 		96429CB61ABA365200BCF3CD /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SegundoViewController.h; path = ../SegundoViewController.h; sourceTree = "<group>"; };
 		96429CB71ABA365200BCF3CD /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SegundoViewController.m; path = ../SegundoViewController.m; sourceTree = "<group>"; };
-		969C96781ABB9A4D0023B17F /* apple-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "apple-logo.jpg"; path = "../../Downloads/apple-logo.jpg"; sourceTree = "<group>"; };
-		969C968A1ABB9C890023B17F /* HelloWorld copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloWorld copy2-Info.plist"; path = "/Users/seba/Desktop/HelloWorld/HelloWorld copy2-Info.plist"; sourceTree = "<absolute>"; };
 		969C969A1ABB9E0A0023B17F /* HelloWorld copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		969C969B1ABB9E0D0023B17F /* HelloWorld copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloWorld copy3-Info.plist"; path = "/Users/seba/Desktop/HelloWorld/HelloWorld copy3-Info.plist"; sourceTree = "<absolute>"; };
 		969C969D1ABB9F5E0023B17F /* libMonkeyTalkMediaPlayer-2.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMonkeyTalkMediaPlayer-2.0.1.a"; sourceTree = "<group>"; };
 		969C96A31ABBA1800023B17F /* libMonkeyTalk-2.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMonkeyTalk-2.0.1.a"; path = "../ios/libMonkeyTalk-2.0.1.a"; sourceTree = "<group>"; };
 		969C96A71ABBA1CD0023B17F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +71,7 @@
 		96A033C91ABAB6A10074D543 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		96A033CB1ABAB6D40074D543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96A033CD1ABAB6EF0074D543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96FFB46E1AE196E7008340AC /* apple-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +124,6 @@
 				96429CA61ABA20B700BCF3CD /* HelloWorldTests */,
 				96429C8B1ABA20B600BCF3CD /* Products */,
 				96A033C01ABAB59A0074D543 /* HelloWorld copy-Info.plist */,
-				969C968A1ABB9C890023B17F /* HelloWorld copy2-Info.plist */,
-				969C969B1ABB9E0D0023B17F /* HelloWorld copy3-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,7 +192,7 @@
 		96A5ED4D1ABA9F6B00A965D6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				969C96781ABB9A4D0023B17F /* apple-logo.jpg */,
+				96FFB46E1AE196E7008340AC /* apple-logo.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -300,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96429C991ABA20B600BCF3CD /* Main.storyboard in Resources */,
-				969C96791ABB9A4D0023B17F /* apple-logo.jpg in Resources */,
+				96FFB46F1AE196E7008340AC /* apple-logo.jpg in Resources */,
 				96429C9E1ABA20B600BCF3CD /* LaunchScreen.xib in Resources */,
 				96429C9B1ABA20B600BCF3CD /* Images.xcassets in Resources */,
 			);
@@ -318,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				969C96931ABB9E0A0023B17F /* Main.storyboard in Resources */,
-				969C96941ABB9E0A0023B17F /* apple-logo.jpg in Resources */,
+				96FFB4701AE196E7008340AC /* apple-logo.jpg in Resources */,
 				969C96951ABB9E0A0023B17F /* LaunchScreen.xib in Resources */,
 				969C96961ABB9E0A0023B17F /* Images.xcassets in Resources */,
 			);
