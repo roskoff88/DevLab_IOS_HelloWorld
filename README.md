@@ -1,5 +1,9 @@
-# IOS_HelloWorld
-Aplicación HelloWorld para IOS.
-Dicho repositorio contiene:
-- Carpeta "HelloWorldMonkeyTalkProject": Proyecto que contiene un script de automatización para testear la aplicación IOS_HelloWorld en el cual se parametrizó mediante un data source "DataSource.ccv" usando la herramienta Monkeytalk
-- Carpeta "HelloWorld": Proyecto de la app IOS_HelloWorld creado en XCode programado en Objective C.
+# IOS dev _ HelloWorld mobile application with a script implementation in Monkeytalk tool.
+
+The IOS_HelloWorld app repository contains:
+- "HelloWorld" folder: 
+-- This folder contains the XCode project with the files that was programmed in Objective C.
+
+-  "HelloWorldMonkeyTalkProject" folder: 
+-- This folder contains an automation script programmed in MonkeyTalk tool in order to test this app.
+-- I have used the data source "DataSource.ccv" to parameterize this script.
