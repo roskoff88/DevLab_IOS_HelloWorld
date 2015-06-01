@@ -1,4 +1,4 @@
-# IOS dev _ HelloWorld mobile application with a script implementation in Monkeytalk tool.
+# IOS_HelloWorld repository contains a mobile ios application with a script implementation in Monkeytalk tool.
 
 The IOS_HelloWorld app repository contains:
 - "HelloWorld" folder: This folder contains the XCode project with the files that was programmed in Objective C.
